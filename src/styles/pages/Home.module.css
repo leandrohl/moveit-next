@@ -1,11 +1,16 @@
 .container {
     height: 100vh;
     /*100vh: pega toda a altura do navegador */
-    max-width: 992px;
+    width: 100vw;
     margin: 0 auto;
-    padding: 2.5rem 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.container nav{
+    background-image: linear-gradient(to bottom, var(--white), var(--backgroud));
+    width: 7rem;
+    margin: 0;
 }
 
 .container section{
@@ -14,4 +19,13 @@
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
     align-content: center;
+}
+
+.container > div{
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 0;
 }

@@ -6,11 +6,15 @@ import styles from '../styles/components/Countdown.module.css'
 
 
 export function Countdown(){
-    const {seconds, minutes, hasFinished, isActive, startCountdown, resetCountdown} = useContext(CountdownContext)
-
+    const {seconds, minutes, hasFinished, isActive, progressed, startCountdown, resetCountdown} = useContext(CountdownContext)
 
     const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
     const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
+
+    useEffect(() =>{
+        let progress = document.getElementById(styles.progress)
+        progress.style.width = String(progressed+'%');
+    }, [progressed]);
 
     return(
         <div>
@@ -52,6 +56,9 @@ export function Countdown(){
                 )}
             </>
         )}
+        <div className={styles.progressBar}>
+            <div id={styles.progress}> </div>
+        </div>
         </div>
     );
 }

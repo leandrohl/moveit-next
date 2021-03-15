@@ -16,8 +16,14 @@
 
 .logo{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    position:relative;
 }
 
-
+.logo img{
+    width: 768px;
+    position:absolute;
+    right: 8rem;
+    top: 5rem;
+}
 
