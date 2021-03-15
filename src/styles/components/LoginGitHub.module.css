@@ -1,0 +1,91 @@
+
+.loginContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginContainer div:first-child img{
+    width: 22.5rem;
+    height: 4.75rem;
+}
+
+.loginContainer > section{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginContainer section strong{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.gitHubInfo {
+    display:flex;
+    text-align:start;
+    align-items: center;
+    line-height: 1.5rem;
+
+    margin-top: 1.5rem;
+
+    height: 3rem;
+    width: 18rem;
+
+    border: 0;
+
+    background: var(--blue);
+    color: var(--gray-line);
+}
+
+.gitHubInfo img{
+    border: 0;
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+.loginContainer section > div{
+    display:flex;
+
+    margin-top: 2.5rem;
+
+    height: 5rem;
+}
+
+.entrarInput{
+    width: 20rem;
+    height: 100%;
+
+    border: 0;
+    border-radius: 5px;
+
+    background-color: var(--blue-dark);
+    background-image: linear-gradient(to left, var(--blue), var(--blue-dark));
+    color: var(--gray-line);
+
+    padding-left: 2rem;
+}
+
+.entrarInput::-webkit-input-placeholder{
+    color: var(--gray-line);
+}
+
+.entrarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 5rem;
+
+    background: var(--blue-dark);
+    border: 0;
+    border-radius: 5px;
+}
+
+.entrarButton img{
+    border: 0;
+    width: 2rem;
+}
