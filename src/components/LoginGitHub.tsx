@@ -16,7 +16,7 @@ export function LoginGitHub(){
                     Faça login com seu Github para começar
                 </div>
                 <div>
-                    <input type="text" className={styles.entrarInput} placeholder="Digite seu username">
+                    <input type="text" className={styles.entrarInput} placeholder="Digite seu username" >
                     </input>
                     <button type="button" className={styles.entrarButton} onClick={() => Router.push('/home')}>
                         <img src="/icons/seta-direita.svg" alt="entrar"/>

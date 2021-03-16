@@ -85,6 +85,11 @@
     background: var(--blue-dark);
     border: 0;
     border-radius: 5px;
+    transition: 1s;
+}
+
+.entrarButton:hover{
+    background: var(--green);
 }
 
 .entrarButton img{
