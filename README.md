@@ -1,2 +1,39 @@
-# moveit-next
-Projeto inspirado no Pomodoro, uma técnica que te ajuda a ter a habilidade de gerenciar o tempo e de controlar as distrações. Realizado durante a Next Level Week 4.
+<h1 align="center">
+  Move.it
+<br />  
+  <br /> 
+  <img src="assets/login.jpg" alt="move-it" width="100%">
+<br />
+<p align="center"> <strong> Projeto inspirado na técnica do Pomodoro desenvolvido durante a Next Level Week 4.</strong> </p>
+</h1> 
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
+
+##  :notebook_with_decorative_cover: Sobre
+A Next Level Week 4 foi realizada pela Rocketseat com o propósito de criar uma aplicação do zero utilizando next-js e react-js para criar uma aplicação que te ajuda a ter a habilidade de gerenciar o seu tempo e de controlar distrações.
+<br />
+
+##  :computer: Tecnologias utilizadas
+- ⚛️ **React Js** — Uma biblioteca JavaScript para criar interfaces de usuário
+- 💹 **Next Js** — Permite renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.
+
+## :rocket: Layout
+- **Página de Login** 
+<img src="assets/login.jpg" alt="PAGINA DE LOGIN" width="100%">
+
+- **Página Home** 
+<img src="assets/home.jpg" alt="PAGINA HOME" width="100%">
+
+- **DESAFIOS**
+<img src="assets/challenge.jpg" alt="PAGINA HOME COM DESAFIOS" width="100%">
+
+## IMPORTANTE:
+Baixe todas as dependências utilizadas antes da execução da aplicação
+<br />
+```npm install ``` : para a instalação das dependências
+<br />
+```npm run dev``` : executa a aplicação 
