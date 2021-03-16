@@ -4,8 +4,9 @@
   <br /> 
   <img src="assets/login.JPG" alt="move-it" width="100%">
 <br />
-<p align="center"> <strong> Projeto inspirado na técnica do Pomodoro desenvolvido durante a Next Level Week 4.</strong> </p>
 </h1> 
+<p align="center"> <strong> Projeto inspirado na técnica do Pomodoro desenvolvido durante a Next Level Week 4.</strong> </p>
+
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
