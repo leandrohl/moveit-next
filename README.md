@@ -2,7 +2,7 @@
   Move.it
 <br />  
   <br /> 
-  <img src="assets/login.jpg" alt="move-it" width="100%">
+  <img src="assets/login.JPG" alt="move-it" width="100%">
 <br />
 <p align="center"> <strong> Projeto inspirado na técnica do Pomodoro desenvolvido durante a Next Level Week 4.</strong> </p>
 </h1> 
@@ -23,13 +23,13 @@ A Next Level Week 4 foi realizada pela Rocketseat com o propósito de criar uma 
 
 ## :rocket: Layout
 - **Página de Login** 
-<img src="assets/login.jpg" alt="PAGINA DE LOGIN" width="100%">
+<img src="assets/login.JPG" alt="PAGINA DE LOGIN" width="100%">
 
 - **Página Home** 
-<img src="assets/home.jpg" alt="PAGINA HOME" width="100%">
+<img src="assets/home.JPG" alt="PAGINA HOME" width="100%">
 
 - **DESAFIOS**
-<img src="assets/challenge.jpg" alt="PAGINA HOME COM DESAFIOS" width="100%">
+<img src="assets/challenge.JPG" alt="PAGINA HOME COM DESAFIOS" width="100%">
 
 ## IMPORTANTE:
 Baixe todas as dependências utilizadas antes da execução da aplicação
