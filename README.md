@@ -8,12 +8,6 @@
 <p align="center"> <strong> Projeto inspirado na técnica do Pomodoro desenvolvido durante a Next Level Week 4.</strong> </p>
 
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
-</p>
-
 ##  :notebook_with_decorative_cover: Sobre
 A Next Level Week 4 foi realizada pela Rocketseat com o propósito de criar uma aplicação do zero utilizando next-js e react-js para criar uma aplicação que te ajuda a ter a habilidade de gerenciar o seu tempo e de controlar distrações.
 <br />
